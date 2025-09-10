@@ -11,7 +11,7 @@ permissions:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
-  CONTEXT_DIR: test-devops-orchestrators-demo
+  CONTEXT_DIR: .
 
 jobs:
   build-and-push:
